@@ -1,0 +1,18 @@
+{
+    "name": "omygosh/phpiggy",
+    "description": "A PHP appliaction for tracking expenses.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "OMYGOSH",
+            "email": "hijkl860415@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Framework\\": "src/Framework",
+            "App\\": "src/App"
+        }
+    }
+}
