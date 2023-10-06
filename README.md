@@ -9,10 +9,12 @@
    > <VirtualHost *:80>
     DocumentRoot "G:/xampp/htdocs/phpiggy/public"  # 指定文件根目錄
     ServerName phpiggy.local # 自訂伺服器名稱
+    <Directory "G:/xampp/htdocs/phpiggy/public">
     RewriteEngine On # 能在不同 Routes 中切換
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ /index.php [L]
+    </Directory>
 
 3. C:\Windows\System32\drivers\etc\hosts
    > #XAMPP Virtual Hosts
