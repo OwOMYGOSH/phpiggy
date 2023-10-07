@@ -2,7 +2,7 @@
 
  A PHP application for tracking expenses.
 
-## How to build
+## How to build at first
 
 1. Need XAMPP, Composer
 2. xampp\apache\conf\extra\httpd-vhosts.conf
@@ -21,3 +21,8 @@
     127.0.0.1 phpiggy.local # 設定虛擬主機
 4. 產生 vendor (composer.json)
    > composer dump-autoload
+
+## Build this project
+
+Terminal
+> composer install
